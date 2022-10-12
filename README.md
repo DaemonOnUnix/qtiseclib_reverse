@@ -1,6 +1,7 @@
 # qtiseclib_reverse
 
-Static reverse of the qtiseclib
+Static reverse of the qtiseclib.
+Intenting to have a fully functionnal Secure World with a Secure Kernel later, just for fun.
 
 ## Useful links
 
