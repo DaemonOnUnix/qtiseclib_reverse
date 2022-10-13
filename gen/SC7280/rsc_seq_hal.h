@@ -1,0 +1,31 @@
+#pragma once
+#include "defs.h"
+__int64 __fastcall rsc_hal_conf_hidden_tcs_owner(__int64 result, char a2);
+__int64 __fastcall rsc_hal_config_br_addr(__int64 result, int a2, unsigned __int16 a3);
+__int64 __fastcall rsc_hal_copy_extended_cmd_seq(__int64 a1, unsigned __int16 a2, __int64 a3, unsigned int a4);
+__int64 __fastcall rsc_hal_copy_simple_cmd_seq(__int64 a1, unsigned __int16 a2, __int64 a3, unsigned int a4);
+__int64 __fastcall rsc_hal_enable_ts_unit(__int64 result, unsigned __int8 a2, char a3);
+__int64 __fastcall rsc_hal_get_delay_cntr_bitwidth(__int64 a1);
+__int64 __fastcall rsc_hal_get_major_ver(_DWORD *a1);
+__int64 __fastcall rsc_hal_get_minor_ver(_DWORD *a1);
+unsigned __int64 __fastcall rsc_hal_get_num_drvs(__int64 a1);
+__int64 __fastcall rsc_hal_get_num_seq_cmd_words(__int64 a1);
+unsigned __int64 __fastcall rsc_hal_get_num_ts_events(__int64 a1);
+__int64 __fastcall rsc_hal_get_parentchild_cfg(__int64 a1);
+__int64 __fastcall rsc_hal_get_seq_override_start_addr_valid(__int64 a1);
+__int64 __fastcall rsc_hal_get_seq_program_counter(__int64 a1);
+__int64 __fastcall rsc_hal_get_solver_cfg(__int64 a1);
+__int64 __fastcall rsc_hal_get_status0(__int64 a1);
+__int64 __fastcall rsc_hal_get_status1(__int64 a1);
+__int64 __fastcall rsc_hal_get_status2(__int64 a1);
+__int64 __fastcall rsc_hal_get_step_ver(_DWORD *a1);
+unsigned __int64 __fastcall rsc_hal_get_ts_overflow(__int64 a1, unsigned __int8 a2);
+__int64 __fastcall rsc_hal_get_ts_unit_h(__int64 a1, unsigned __int8 a2);
+__int64 __fastcall rsc_hal_get_ts_unit_l(__int64 a1, unsigned __int8 a2);
+__int64 __fastcall rsc_hal_get_ts_valid(__int64 a1, unsigned __int8 a2);
+__int64 __fastcall rsc_hal_seq_busy(__int64 a1);
+__int64 __fastcall rsc_hal_set_seq_override_start_addr(__int64 result, unsigned __int8 a2);
+__int64 __fastcall rsc_hal_set_seq_override_start_addr_valid(__int64 result, int a2);
+__int64 __fastcall rsc_hal_set_trigger_seq(__int64 result, unsigned __int8 a2);
+__int64 __fastcall rsc_hal_set_trigger_start_address(__int64 result, unsigned __int16 a2);
+__int64 __fastcall rsc_hal_set_ts_unit_owner(__int64 result, unsigned __int8 a2);
